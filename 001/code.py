@@ -69,7 +69,7 @@ def get_union(list1, list2):
 
     for item in list1:
         if item not in output_list:
-           output_list.append(item)
+            output_list.append(item)
 
     for item in list2:
         if item not in list1:
@@ -147,7 +147,7 @@ def convert_to_base_2(n):
         n_log_base_2 = math.log(n, 2)
         rounded_log = math.floor(n_log_base_2)
 
-        n = n -  2**rounded_log
+        n = n - 2**rounded_log
 
         exponent_list.append(rounded_log)
 
