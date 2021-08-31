@@ -57,7 +57,7 @@ if is_prime(11) is not True:
 
 # get_intersection tests
 if get_intersection([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 6, 7, 8]) != [1, 2, 3, 4]:
-    print('get_intersection failed on input "[1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 6, 7, 8]"')
+    print('get_intersection failed')
     print(get_intersection([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 6, 7, 8]))
 
 if get_intersection([1, 1, 1, 1, 1], []) != []:
