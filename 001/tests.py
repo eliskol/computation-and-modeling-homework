@@ -118,4 +118,4 @@ assert convert_to_base_10(1011) == convert_to_base_10_test2
 
 assert convert_to_base_2(10) == 1010
 
-assert convert_to_base_2(1001) == 1100100
+assert convert_to_base_2(20) == 10100
