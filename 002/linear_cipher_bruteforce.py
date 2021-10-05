@@ -7,6 +7,7 @@ def bruteforce(message):
         for b in range(0, 101):
 
             output_list = []
+            decoded_numbers = []
 
             for char_code in message:
 
@@ -22,9 +23,13 @@ def bruteforce(message):
                         break
 
                     else:
+                        decoded_numbers.append(int(char_code))
                         output_list.append(alphabet[int(char_code)])
 
                 else:
                     break
             else:
+                print(decoded_numbers)
                 print(''.join(output_list))
+
+bruteforce([377, 717, 71, 513, 105, 921, 581, 547, 547, 105, 377, 717, 241, 71, 105, 547, 71,377, 547, 717, 751, 683, 785, 513, 241, 547, 751])

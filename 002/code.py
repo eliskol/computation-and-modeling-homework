@@ -1,6 +1,3 @@
-import random
-
-
 def encode(string, a, b):
 
     alphabet = " abcdefghijklmnopqrstuvwxyzABCDEFGHILMNOPQRSTUVWYXZ"
@@ -15,7 +12,7 @@ def encode(string, a, b):
 
             linear_encoded_letter = a * trivial_encoded_letter + b
 
-        else:   
+        else:
             linear_encoded_letter = trivial_encoded_letter + b
 
         output_list.append(linear_encoded_letter)
@@ -85,17 +82,13 @@ def calc_square_root(x, precision):
 
 
 def calc_nth_root(x, n, precision):
-
     a = 0
-
     b = x + 1
 
     while (b - a) > precision:
-
         guess = (a + b) / 2
 
         if guess**n == x:
-
             return guess
 
         elif guess**n < x:
