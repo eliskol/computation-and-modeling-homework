@@ -1,13 +1,3 @@
-def newton_rhapson(x, n, precision):
-    x_old = x
-    while (x_old**n) - x > precision or x_old == x:
-        f = lambda p: (p**n) - x
-        f_prime = lambda p : n * (p ** (n - 1))
-        x_new = x_old - f(x_old)/f_prime(x_old)
-        x_old = x_new
-    return x_new
-
-
 def merge(a, b):
     a_index = 0
     b_index = 0
