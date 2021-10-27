@@ -1,20 +1,5 @@
-from helpers import merge
+from helpers import *
 
-def split_list(input_list):
-
-    first_half_list = []
-    second_half_list = []
-
-    for i in range(0, len(input_list)):
-        if i < int(len(input_list)/2):
-            first_half_list.append(input_list[i])
-        else:
-            second_half_list.append(input_list[i])
-    
-    return first_half_list, second_half_list
-
-ex_list = [5, 2, 3, 4, 5]
-# print(split_list(ex_list))
 
 def merge_sort(input_list):
     
@@ -28,5 +13,3 @@ def merge_sort(input_list):
     
     else:
         return input_list
-
-print(merge_sort(ex_list))
