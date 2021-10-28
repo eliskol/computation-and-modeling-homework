@@ -23,17 +23,3 @@ def merge(a, b):
             b_index += 1
 
     return merged_list
-
-
-def split_list(input_list):
-
-    first_half_list = []
-    second_half_list = []
-
-    for i in range(0, len(input_list)):
-        if i < int(len(input_list)/2):
-            first_half_list.append(input_list[i])
-        else:
-            second_half_list.append(input_list[i])
-
-    return first_half_list, second_half_list
