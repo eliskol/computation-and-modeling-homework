@@ -1,6 +1,9 @@
 {
     "recommendations": [
         "emroussel.atomize-atom-one-dark-theme",
-        "ms-vscode.atom-keybindings"
+        "ms-vscode.atom-keybindings",
+        "wuz.dank-neon",
+        "ms-python.python",
+        "github.github-vscode-theme"
     ]
 }
