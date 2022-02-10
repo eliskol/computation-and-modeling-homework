@@ -1,3 +1,2 @@
 tasks:
-  - init: pip install scipy matplotlib pandas
-  - init: sudo apt install haskell-platform -y
+  - init: pip install scipy matplotlib pandas && sudo apt install haskell-platform -y
